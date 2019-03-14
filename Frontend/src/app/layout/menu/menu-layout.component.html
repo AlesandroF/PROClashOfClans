@@ -1,0 +1,33 @@
+<header>
+    <nav class="nav-black">
+      <div id="navbarText">
+        <span class="item-right"> Implementando page home</span>
+        <span class="item-left">
+          <h5>Clash Of Clans</h5>
+        </span>
+      </div>
+    </nav>
+  </header>
+
+  <div class="content-routers">
+    <ng-content></ng-content>
+  </div>
+
+  <div class="left">
+    <div class="item active" routerLink="/clan">
+      <i class="fas fa-shield-alt"></i> Clan
+    </div>
+    <div class="item" routerLink="/buscar-jogadores">
+      <i class="fas fa-search"></i> Buscar Jogadores
+    </div>
+    <div class="item" routerLink="/buscar-clans">
+      <i class="fas fa-search"></i> Buscar Clans
+    </div>
+    <div class="item" routerLink="/sobre">
+      <i class="fas fa-info-circle"></i> Sobre
+    </div>
+  </div>
+
+  <footer>
+    <span>Implementando page home</span>
+  </footer>

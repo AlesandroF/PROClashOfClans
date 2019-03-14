@@ -1,0 +1,48 @@
+input {
+  color: white;
+}
+
+.login-image {
+    height: 100%;
+    background-image: url("../../../assets/imagens/login13.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    div {
+        div {
+            .card {
+                width: 600px;
+            }
+
+            .transparent-black {
+                background-color: rgba(0, 0, 0, 0.5) !important;
+            }
+        }
+    }
+}
+
+.card-content {
+    padding-bottom: 0px;
+}
+
+.card-action {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    button {
+        margin-left: 10px;
+        min-width: 130px;
+    }
+}
+
+.btn {
+    background-color: brown;
+}

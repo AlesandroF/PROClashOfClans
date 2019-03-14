@@ -1,0 +1,51 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="register-image">
+    <div class="container register">
+        <div class="row testando-aqui">
+            <div class="col-md-9 register-right">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <h3 class="register-heading">Registrar-se</h3>
+                        <div class="row register-form">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" id="nome-register" class="form-control" placeholder="Nome *" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" id="tag-register" class="form-control" placeholder="Tag da Vila *" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" id="senha-register" class="form-control" placeholder="Senha *" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" id="confirmar-senha-register" class="form-control" placeholder="Confirmar Senha *" value="" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" id="nick-register" class="form-control" placeholder="Nick da Vila *" value="" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" id="telefone-register" minlength="10" maxlength="14" name="txtEmpPhone" class="form-control"
+                                        placeholder="Telefone" value="" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="submit" class="btnRegister" value="Registrar" />
+                                <input type="submit" class="btnReturnLogin" (click)="goToLogin()" value="Retornar Login" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
